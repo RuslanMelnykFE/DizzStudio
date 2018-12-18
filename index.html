@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-<link href="./static/css/app.d2d3a6c8adcc86c6dc8d8f8802f5137c.css" rel="stylesheet"></head>
+<link href="./static/css/app.01643446f631e81b5cc71b31df83f46d.css" rel="stylesheet"></head>
 <body>
   <header>
     <nav>
@@ -19,16 +19,56 @@
             </svg>
         </button>
       </form>
-      <ul>
-        <li>Home</li>
-        <li>Online shop</li>
-        <li>Diorama/Laden</li>
-        <li>News</li>
-        <li>Galerie</li>
-        <li>Downloads</li>
+      <ul class="line-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Online shop</a></li>
+        <li><a href="#">Diorama/Laden</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Galerie</a></li>
+        <li><a href="#">Downloads</a></li>
+      </ul>
+      <ul class="humburger-menu">
+        <li>
+          <div>
+              <form>
+                  <input type="search">
+                  <button type="submit">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" version="1.1" width="64px" height="64px">
+                        <g id="surface1">
+                          <path style=" " d="M 10.5 1 C 8.019531 1 6 3.019531 6 5.5 C 6 6.558594 6.382813 7.523438 7 8.292969 L 2.023438 13.269531 L 2.726563 13.980469 L 7.707031 9 C 8.476563 9.617188 9.441406 10 10.5 10 C 12.980469 10 15 7.980469 15 5.5 C 15 3.019531 12.980469 1 10.5 1 Z M 10.5 2 C 12.4375 2 14 3.5625 14 5.5 C 14 7.4375 12.4375 9 10.5 9 C 8.5625 9 7 7.4375 7 5.5 C 7 3.5625 8.5625 2 10.5 2 Z "/>
+                        </g>
+                      </svg>
+                  </button>
+                </form>
+              <div class="language">
+                <button>Eng</button><button>Deu</button>
+              </div>
+          </div>
+              <button class="close-window">  Close 
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" version="1.1" width="50px" height="50px">
+                  <g id="surface1">
+                  <path style=" " d="M 2.75 2.042969 L 2.042969 2.75 L 2.398438 3.101563 L 7.292969 8 L 2.042969 13.25 L 2.75 13.957031 L 8 8.707031 L 12.894531 13.605469 L 13.25 13.957031 L 13.957031 13.25 L 13.605469 12.894531 L 8.707031 8 L 13.957031 2.75 L 13.25 2.042969 L 8 7.292969 L 3.101563 2.398438 Z "/>
+                  </g>
+                </svg>      
+              </button>
+        </li>
+        <li><a href="#">Home</a> <div class="arrow-right"></div></li>
+        <li><a href="#">Online shop</a> <div class="arrow-right"></div></li>
+        <li><a href="#">Diorama/Laden</a> <div class="arrow-right"></div></li>
+        <li><a href="#">News</a> <div class="arrow-right"></div></li>
+        <li><a href="#">Galerie</a> <div class="arrow-right"></div></li>
+        <li><a href="#">Downloads</a> <div class="arrow-right"></div></li>
       </ul>
       <div class="language">
         <button>Eng</button><button>Deu</button>
+      </div>
+      <div class="menu-burger">
+        <button>Menu</button>
+        <div class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </nav>
   </header>
@@ -51,7 +91,8 @@
             </div>
             <div class="carousel-block">
               <div class="carousel-item hide-item">
-                <img src="./static/img/model.a2d6941.png" alt="">
+                <img src="./static/img/model.a2d6941.png" alt="model">
+                <img src="./static/img/img_1534.4a6789a.png" alt="img_1534">
                 <div class="card">
                   <h2>Airmail</h2>
                   <h3>Flugzeugmodelle</h3>
@@ -63,7 +104,8 @@
                 </div>
               </div>
               <div class="carousel-item hide-item">
-                <img src="./static/img/model.a2d6941.png" alt="">
+                <img src="./static/img/model.a2d6941.png" alt="model">
+                <img src="./static/img/img_1534.4a6789a.png" alt="img_1534">
                 <div class="card">
                   <h2>Airmail</h2>
                   <h3>Flugzeugmodelle</h3>
@@ -75,7 +117,8 @@
                 </div>
               </div>
               <div class="carousel-item hide-item">
-                <img src="./static/img/model.a2d6941.png" alt="">
+                <img src="./static/img/model.a2d6941.png" alt="model">
+                <img src="./static/img/img_1534.4a6789a.png" alt="img_1534">
                 <div class="card">
                   <h2>Airmail</h2>
                   <h3>Flugzeugmodelle</h3>
@@ -94,10 +137,14 @@
       <article class="orders">
           <div class="engle-left"></div>
           <div class="engle-right"></div>
+          <div class="airmail">
+            <p>airmail</p>
+          </div>
           <div class="block-line">
             <div class="block">
               <figure>
-                <img src="./static/img/IMG_2563.b370352.png" alt="">
+                <img src="./static/img/IMG_2563.b370352.png" alt="IMG_2563">
+                <img src="./static/img/IMG_2563_1.740cc21.png" alt="IMG_2563_1">
                 <div>
                   <h4>Über uns</h4>
                   <p>Mehr</p>
@@ -166,6 +213,9 @@
       <article class="photo">
         <div class="engle-left"></div>
         <div class="engle-right"></div>
+        <div class="folge-uns">
+          <p>Folge uns</p>
+        </div>
         <div class="instagram">
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
@@ -175,25 +225,33 @@
           </div>
           <p>@airmailflugzeugmodelle</p>
         </div>
-        <figure>
-          <img src="./static/img/img_1520.2b6279d.png" alt="">
-        </figure>
-        <figure>
-          <img src="./static/img/img_1521.94baf4a.png" alt="">
-        </figure>
-        <figure>
-          <img src="./static/img/img_1531.a446eb4.png" alt="">
-        </figure>
-        <figure>
-          <img src="./static/img/img_1529.a19fe15.png" alt="">
-        </figure>
+        <div class="carousel-photo">
+          <figure>
+            <img src="./static/img/img_1520.2b6279d.png" alt="">
+          </figure>
+          <figure>
+            <img src="./static/img/img_1521.94baf4a.png" alt="">
+          </figure>
+          <figure>
+            <img src="./static/img/img_1531.a446eb4.png" alt="">
+          </figure>
+          <figure>
+            <img src="./static/img/img_1529.a19fe15.png" alt="">
+          </figure>
+          <div class="circle-photo">
+          </div>
+        </div>
       </article>
     </section>    
   </main>
   <footer>
     <section>
       <article class="address-map">
-        <figure class="map"><img src="./static/img/img_790.87ea72e.png" alt=""></figure>
+        <figure class="map">
+          <img src="./static/img/img_790.87ea72e.png" alt="790">
+          <img src="./static/img/map.39231d5.png" alt="map">
+          <img src="./static/img/img_564.857e06c.png" alt="564">
+        </figure>
         <figure class="pointer"><img src="data:image/png;base64,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" alt=""></figure>
         <figure class="logo1"><img src="./static/img/logo.9ff6b8d.png" alt=""></figure>
       </article>
@@ -218,14 +276,18 @@
           </a>
         </div>
         <div class="address">
-          <div>
-            <p>Airmail Flugzeugmodelle GmbH </p>
-            <p>Kaiserstuhlstrasse 36</p> 
-            <p>8154 Oberglatt</p>
-            <a href="#">Datenschutzerklärung</a>
-            <p>&copy Copyright</p>
+          <div class="street">
+            <div>
+              <p>Airmail Flugzeugmodelle <br/> GmbH </p>
+              <p>Kaiserstuhlstrasse 36</p> 
+              <p>8154 Oberglatt</p>
+            </div>
+            <div>
+              <a href="#">Datenschutzerklärung</a>
+              <p>&copy Copyright</p>
+            </div>
           </div>
-          <div>
+          <div class="work">
             <p>Ladenöffnungszeite n:</p>
             <p>Mi-Fr 10.30-18.30</p>
             <a href="#">Impressum</a>
@@ -235,5 +297,5 @@
       </article>
     </section>
   </footer>
-<script type="text/javascript" src="./static/js/manifest.2ae2e69a05c33dfc65f8.js"></script><script type="text/javascript" src="./static/js/vendor.5bbde1cb747c6e5ab6eb.js"></script><script type="text/javascript" src="./static/js/app.be5cdc05bade5ad779ac.js"></script></body>
+<script type="text/javascript" src="./static/js/manifest.2ae2e69a05c33dfc65f8.js"></script><script type="text/javascript" src="./static/js/vendor.5bbde1cb747c6e5ab6eb.js"></script><script type="text/javascript" src="./static/js/app.de6edeff94cf3ef5d008.js"></script></body>
 </html>
